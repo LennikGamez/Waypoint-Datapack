@@ -1,0 +1,2 @@
+# Waypoint-Datapack
+Minecraft Datapack
