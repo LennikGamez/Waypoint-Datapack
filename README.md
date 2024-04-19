@@ -1,2 +1,17 @@
 # Waypoint-Datapack
-Minecraft Datapack
+This Datapack requires version **1.20.2** of Minecraft.
+
+## Installation
+Download this repository and paste it into the %appdata%/.minecraft/saves/YOUR_WORLD_NAME/datapacks/ directory.
+In Minecraft either restart your world or type /reload.
+
+## Usage
+
+### You can use 3 commands:
+
+* /trigger setWaypoint -> gives you a book which you need to sign and enter the name of your new waypoint as the title
+* /trigger viewWaypoints -> to display all of your set waypoints
+* /trigger deleteWaypoint set id -> to remove a specific waypoint
+
+## Deinstallation
+Type /function waypoints:uninstall
