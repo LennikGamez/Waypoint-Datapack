@@ -1,0 +1,1 @@
+execute store result storage ld.wp:db Input.id int 1 run scoreboard players get $(selector) ld.wp.id
