@@ -2,7 +2,7 @@
 This Datapack requires version **1.20.2** of Minecraft.
 
 ## Installation
-Download this repository and paste it into the %appdata%/.minecraft/saves/YOUR_WORLD_NAME/datapacks/ directory.
+Download this repository, unpack it and paste the folder into the %appdata%/.minecraft/saves/YOUR_WORLD_NAME/datapacks/ directory.
 In Minecraft either restart your world or type /reload.
 
 ## Usage
