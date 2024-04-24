@@ -16,8 +16,8 @@ execute as @a[scores={deleteWaypoint=0..}] run function waypoints:handles/remove
 
 
 
-execute as @a[tag=ld.wp.book-given] at @s if data entity @s Inventory[{tag:{waypoint_book:1b},id: "minecraft:written_book"}] run function waypoints:interact/book/remove-book
+execute as @a[tag=ld.wp.book-given] at @s if items entity @s container.* minecraft:written_book[minecraft:custom_data={waypoint_book:1b}] run function waypoints:interact/book/remove-book
 
-execute as @a[tag=ld.wp.book-given] at @s unless data entity @s Inventory[{tag:{waypoint_book:1b}}] run tag @s remove ld.wp.book-given
+execute as @a[tag=ld.wp.book-given] at @s unless items entity @s container.* minecraft:writable_book[minecraft:custom_data={waypoint_book:1b}] run tag @s remove ld.wp.book-given
 
-execute as @a[tag=!ld.wp.book-given] at @s if data entity @s Inventory[{tag:{waypoint_book:1b}}] run tag @s add ld.wp.book-given
+execute as @a[tag=!ld.wp.book-given] at @s if items entity @s container.* minecraft:writable_book[minecraft:custom_data={waypoint_book:1b}] run tag @s add ld.wp.book-given
