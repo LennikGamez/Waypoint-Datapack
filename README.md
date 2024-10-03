@@ -17,3 +17,4 @@ In Minecraft either restart your world or type /reload.
 
 ## Deinstallation
 Type /function waypoints:uninstall
+and remove the pack from the datapacks folder
